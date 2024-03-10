@@ -1,0 +1,60 @@
+@font-face{
+    font-family: RockSalt-Regular;
+    src: url(fonts/RockSalt-Regular.ttf);
+}
+
+body{
+    background-color: #fffbdb;
+    font-family: RockSalt-Regular;
+    color: #ff674d;
+    display: grid;
+    grid-template-rows: 1% 99%;
+    text-align: center;
+    
+}
+
+
+h1{
+    font-size: 4em;
+}
+
+#content{
+    min-width: 270px;
+    font-size: 1em;
+    width: 20%;
+    display: grid;
+    grid-template-rows: 10% 20% 10% 20% 20% 20%;
+    text-align: center;
+    border-style: solid;
+    border-color: #ff674d;
+    margin: 0 auto;
+    margin-top: 10%;
+    height: fit-content;
+}
+
+.credencial{
+    margin: 2%;
+    min-width: none;
+    border-color: #ff674d;
+    font-size: 1em;
+    outline: none;
+}
+
+.credencial:focus {
+    border-color: #ff674d;
+}
+
+label{
+    text-align: left;
+    margin-left: 5%;
+}
+
+p:hover{
+    color: #449dd1;
+    cursor: pointer;
+}
+
+a{
+    color: #ff674d;
+    text-decoration: none;
+}

@@ -1,0 +1,60 @@
+@font-face{
+    font-family: RockSalt-Regular;
+    src: url(fonts/RockSalt-Regular.ttf);
+}
+
+body{
+    background-color: #fffbdb;
+    font-family: RockSalt-Regular;
+    color: #ff674d;
+    display: grid;
+    grid-template-rows: 1% 99%;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 4em;
+}
+
+#content{
+    text-align: left;
+    font-size: 1em;
+    width: 20%;
+    display: grid;
+    grid-template-rows: auto;
+    border-color: #ff674d;
+    border-style: solid;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.credencial{
+    margin: 2%;
+    height: 100%;
+    margin-top: -1%;
+    border-color: #ff674d;
+    font-size: 1em;
+    outline: none;
+}
+
+label{
+    margin: 2%;
+}
+
+button{
+    background-color: #ff674d;
+    color: #fffbdb;
+    width: 30%;
+    padding: 5%;
+    margin: 2%;
+    margin-left: 68%;
+}
+
+#permicao{
+    padding: 2%;
+}
+
+#declaracao{
+    margin: 0%;
+}

@@ -1,0 +1,213 @@
+@font-face{
+    font-family: Zeyada-Regular;
+    src: url(fonts/Zeyada-Regular.ttf);
+
+    font-family: RockSalt-Regular;
+    src: url(fonts/RockSalt-Regular.ttf);
+}
+
+html, body{
+    margin: 0px;
+    height: 130%;
+    font-family: RockSalt-Regular;
+    color: #ff674d;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#fundo{
+    height: 130%;
+    background-color: #223843;
+    display: grid;
+    grid-template-rows: 35% 5% 60%;
+}
+
+#logo{
+    background-color: #fffbdb;
+    border-top-style: solid;
+    border-color: #ff674d;
+    color: #ff674d;
+    font-family: RockSalt-Regular;
+    font-size: 10em ;
+    text-align: center;
+    padding-top: 8%;
+
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #449dd1;
+    border-style: solid;
+    border-color: #ff674d;
+}
+
+
+
+.setor{
+    color: #fffbdb;
+    font-size: 2em;
+    text-align: center;
+    margin: 1%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.setor:hover{
+    color: #ff674d;
+    cursor: pointer;
+}
+
+#conteudo{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    margin-left: 7%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+#menu_esquerdo{
+    display: grid;
+    grid-template-rows: 40% 60%;
+
+}
+
+#perfil{
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+    border: solid;
+    border-color: #ff674d;
+}
+
+#azul{
+    background-color: #449dd1;
+}
+
+#bege{
+    background-color: #fffbdb;
+    margin-bottom: -11%;
+    text-align: center;
+    padding-top: 30%;
+    font-size: 2em;
+}
+
+#foto_perfil{
+
+    background-color: #ff674d;
+    border-radius: 50%;
+    margin-top: -90%;
+    margin-bottom: 65%;
+    margin-left: 33%;
+    margin-right: 33%;
+
+}
+
+#disciplinas{
+    display: grid;
+    grid-template-rows: repeat(10, 10% );
+    background-color: #fffbdb;
+    border: solid;
+    border-color: #ff674d;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+.disciplina{
+    background-color: #fffbdb;
+    border-bottom: solid;
+    border-bottom-color: #ff674d;
+    color: #ff674d;
+    font-family: RockSalt-Regular;
+    text-align: center;
+    font-size: 2em;
+}
+
+.disciplina:hover{
+    background-color: #449dd1;
+    cursor:pointer;
+}
+
+#filosofia{
+    border-bottom: none;
+}
+
+#feed{
+    max-height: 100%;
+    overflow-y: scroll;
+}
+
+#feed::-webkit-scrollbar{
+    display: none;
+}
+
+#postagem{
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    background-color: #fffbdb;
+    border:solid;
+    border-color: #ff674d;
+    height: 8%;
+    margin: 4%;
+    margin-top: 0%;
+}
+
+#texto_post{
+    margin: 6%;
+    border-color: #ff674d;
+    outline: none;
+    font-size: 2em;
+    background-color: white;
+    border-color: #ff674d;
+    border-style: solid;
+}
+
+#texto_post::-webkit-scrollbar{
+    display: none;
+}
+
+#botao_post{
+    margin: 12%;
+    margin-top: 10%;
+    background-color: #ff674d;
+    border-color: #ff674d;
+    color: #fffbdb;
+    height: 50%;
+}
+
+#foto_post{
+    background-color: #ff674d;
+    border-radius: 50%;
+    margin: 25%;
+    margin-right: 5%;    
+}
+
+.post{
+    background-color: #fffbdb;
+    border:solid;
+    border-color: #ff674d;
+    margin: 4%;
+    height: 50%;
+
+}
+
+
+#menu_direito{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    background-color: #fffbdb;
+    border-style: solid;
+    border-color: #ff674d;
+}
+
+#titulo{
+    background-color: #fffbdb;
+    border-color: #ff674d;
+    border-bottom-style: solid;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 5%;
+}
